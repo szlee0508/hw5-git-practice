@@ -208,8 +208,8 @@ class TestCard(unittest.TestCase):
         #print("now cards : " + str(len(q7.cards)))
         #print("per cards : " + str(len(temp)))
         self.assertEqual(len(q7.cards), len(temp1), len(temp2))
-        return 52, 52, 52
-        #return len(q7.cards), len(temp1), len(temp2)
+        #return 52, 52, 52
+        return len(q7.cards), len(temp1), len(temp2)
     
     def test_q8(self):
         '''
